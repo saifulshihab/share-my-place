@@ -9,8 +9,13 @@ export class Map {
             return;
         }
         const map = new google.maps.Map(document.getElementById('map'), {
-            center: {lat: coordinate.latitude, lng: coordinate.longitude},
+            center: coordinate,
             zoom: 8
+        })
+
+        new google.maps.Marker({
+            position: coordinate,
+            map: map
         })
     }
 }

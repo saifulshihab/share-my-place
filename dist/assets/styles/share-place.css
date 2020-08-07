@@ -20,13 +20,21 @@ input {
 
 input:focus {
   outline: none;
-  background: #efe3ff;
-  border-color: #36007c;
+  background: #82b3fc;
+  border-color: #023888;
 }
-
+.app-content {
+  display: flex;
+}
+.app-content .appbtns {
+  width: 30%;
+}
+.app-content .maps-area {
+  width: 70%;
+}
 #selected-place {
-  width: 40rem;
-  height: 25rem;
+  width: 100%;
+  height: 80vh;
   max-width: 90%;
   margin: 2rem auto;
   border: 1px solid #ccc;
@@ -40,8 +48,9 @@ input:focus {
   align-items: center;
 }
 
-#share-controls {
-  width: 40rem;
+#share-controls,
+#get-locate-btn,
+#place-data {
   max-width: 90%;
   margin: 2rem auto;
   border: 1px solid #ccc;
@@ -51,13 +60,4 @@ input:focus {
 
 #share-controls input {
   font-size: 1.15rem;
-}
-
-#place-data {
-  width: 40rem;
-  max-width: 90%;
-  margin: 2rem auto;
-  border: 1px solid #ccc;
-  padding: 1rem;
-  text-align: center;
 }

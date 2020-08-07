@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background: #36007c;
+  background: #0051ca;
   width: 100%;
   height: 4rem;
   display: flex;
@@ -29,9 +29,9 @@ header h1 {
 button {
   font: inherit;
   font-size: 1.25rem;
-  background: #36007c;
+  background: #0051ca;
   color: white;
-  border: 1px solid #36007c;
+  border: 1px solid #0051ca;
   border-radius: 6px;
   padding: 0.5rem 1.5rem;
   margin: 0.5rem 0;
@@ -44,8 +44,8 @@ button:focus {
 
 button:hover,
 button:active {
-  background: #55007c;
-  border-color: #55007c;
+  background: #023888;
+  border-color: #023888;
 }
 
 button:disabled,
